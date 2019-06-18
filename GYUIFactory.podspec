@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/yanqzxsl/GYUIFactory.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/yanqzxsl/GYUIFactory", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "GYUIFactory", "GYUIFactory/UIFactory/**/*.{h,m}"
+  spec.source_files  = "GYUIFactory/UIFactory/**/*.{h,m}"
 #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
