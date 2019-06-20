@@ -22,6 +22,8 @@
     UILabel *lab = [[UILabel alloc] init].factoryFrame(CGRectMake(100, 200, 150, 150)).factoryBgColor([UIColor redColor]).factoryTextAlignment(NSTextAlignmentCenter).factoryTextColor([UIColor redColor]).factoryText(@"Hello");
     
     [self.view addSubview:lab];
+    
+    
 }
 
 

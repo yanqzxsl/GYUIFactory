@@ -13,10 +13,10 @@ NS_ASSUME_NONNULL_BEGIN
 @interface UIView (GYFactory)
 
 /// 出厂Fram
-- (UIView * (^)(CGRect))factoryFrame;
+- (instancetype _Nonnull (^)(CGRect))factoryFrame;
 
 /// 出厂背景色
-- (UIView * (^)(UIColor *))factoryBgColor;
+- (instancetype _Nonnull (^)(UIColor *))factoryBgColor;
 
 @end
 

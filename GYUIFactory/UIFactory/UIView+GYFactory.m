@@ -10,14 +10,14 @@
 
 @implementation UIView (GYFactory)
 
-- (UIView * (^)(CGRect))factoryFrame {
+- (instancetype _Nonnull (^)(CGRect))factoryFrame {
     return ^(CGRect frame) {
         self.frame = frame;
         return self;
     };
 }
 
-- (UIView * (^)(UIColor *))factoryBgColor {
+- (instancetype _Nonnull (^)(UIColor *))factoryBgColor {
     return ^(UIColor *bgcolor) {
         self.backgroundColor = bgcolor;
         return self;
